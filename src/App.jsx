@@ -10,22 +10,18 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <>
+    <div className="app-wrapper">
       <Header />
-      <div className="app">
+      <div className="app-container">
         <WorkProcess />
-        <div className="pricing-section">
-          <PricingCard />
-        </div>
-        <div className="advance-pricing-section">
-          <AdvancePricingCard />
-        </div>
+        <PricingCard />
+        <AdvancePricingCard />
         <Testimonials />
+        <ResumeBuilding />
+        <ContactCTA />
       </div>
-      <ResumeBuilding />
-      <ContactCTA />
       <Footer />
-    </>
+    </div>
   );
 }
 

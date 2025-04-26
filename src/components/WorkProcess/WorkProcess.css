@@ -8,13 +8,13 @@
   font-size: 2rem;
   font-weight: 600;
   color: #0052cc;
-  text-align: center;
+  text-align: start;
   margin-bottom: 50px;
 }
 
 .steps-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
 }

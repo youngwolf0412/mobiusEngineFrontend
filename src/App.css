@@ -1,13 +1,10 @@
 .app {
   max-width: 1500px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 h1 {
   font-size: 3rem;
-  margin-top: 2rem;
 }
 
 .pricing-section {

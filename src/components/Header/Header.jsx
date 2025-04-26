@@ -6,13 +6,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo-container">
-          <div className="logo-icon">
-            <svg viewBox="0 0 24 24" fill="white">
-              <path d="M8 5v14l11-7z" />
-            </svg>
-          </div>
-          <div className="logo-text">MobiusEngine</div>
-          <div className="logo-dimensions">250.78 × 49.92</div>
+          <img src="./logo.png" alt="Logo" className="logo" />
         </div>
 
         <nav className="nav-menu">
@@ -55,12 +49,11 @@ const Header = () => {
             <span className="white-text">faster</span>
           </h1>
           <p>
-            Custom-built resumes that match your goals, keywords, and
-            <br />
-            recruiter expectations.
+            Custom-built resumes that match your goals, keywords, and recruiter
+            expectations.
           </p>
           <div className="hero-buttons">
-            <button className="get-started-btn hero-btn">
+            <button className="get-started-btn ">
               Get Started
               <svg
                 className="arrow-icon"

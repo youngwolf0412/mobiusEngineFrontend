@@ -1,12 +1,14 @@
 .advance-card {
   width: 100%;
-  max-width: 730px;
+  max-width: 100%;
+  box-sizing: border-box;
   background-color: #0052fe;
   border-radius: 16px;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 80px;
   padding: 30px;
   box-shadow: 0 8px 20px rgba(0, 82, 254, 0.15);
 }
@@ -20,6 +22,17 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 25px;
+  position: relative;
+}
+
+.advance-card-header::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .advance-title {
@@ -41,11 +54,13 @@
 }
 
 .price-amount {
+  color: white;
   font-size: 28px;
   font-weight: 700;
 }
 
 .price-period {
+  color: white;
   font-size: 16px;
   font-weight: 500;
 }
@@ -75,8 +90,9 @@
   flex-shrink: 0;
 }
 
-.feature-text {
+.feature-text-advance {
   font-size: 14px;
+  color: white;
   font-weight: 500;
 }
 

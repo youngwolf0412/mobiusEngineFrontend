@@ -2,6 +2,8 @@
   background-color: #0052fe;
   padding: 30px 20px;
   width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .contact-container {

@@ -14,7 +14,12 @@ function App() {
       <Header />
       <div className="app-container">
         <WorkProcess />
-        <PricingCard />
+        <h2>Job Application Service Plans</h2>
+        <div className="pricing-cards-container">
+          <PricingCard />
+          <PricingCard />
+          <PricingCard />
+        </div>
         <AdvancePricingCard />
         <Testimonials />
         <ResumeBuilding />

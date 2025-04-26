@@ -1,0 +1,167 @@
+.resume-building {
+  background-color: #0052fe;
+  padding: 50px 20px;
+  color: white;
+}
+
+.resume-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.resume-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.resume-header p {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.call-to-action {
+  margin-top: 8px;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  color: #333;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  margin-bottom: 25px;
+}
+
+.card-header h3 {
+  color: #0052fe;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+
+.card-header p {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #555;
+  margin: 0;
+}
+
+.price {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.amount {
+  font-size: 34px;
+  font-weight: 700;
+  color: #0052fe;
+}
+
+.period {
+  font-size: 16px;
+  color: #0052fe;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 20px 0;
+}
+
+.features {
+  list-style-type: none;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.features li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.check-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #e0f3e0;
+  margin-right: 10px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.check-icon::before {
+  content: "✓";
+  font-size: 12px;
+  color: #34c759;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.features li span {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #444;
+}
+
+.get-started-btn {
+  background-color: #0052fe;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.get-started-btn:hover {
+  background-color: #0045d8;
+  transform: translateY(-2px);
+}
+
+.arrow {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card {
+    margin-bottom: 30px;
+  }
+}

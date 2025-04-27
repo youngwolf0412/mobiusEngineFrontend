@@ -26,3 +26,50 @@
     gap: 20px;
   }
 }
+
+.testimonials-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.more-testimonials-btn,
+.get-started-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  gap: 8px;
+}
+
+.more-testimonials-btn {
+  background-color: transparent;
+  border: 1px solid #0052cc;
+  color: #0052cc;
+}
+
+.more-testimonials-btn:hover {
+  background-color: rgba(0, 82, 204, 0.05);
+}
+
+.get-started-btn {
+  background-color: #0052cc;
+  color: white;
+}
+
+.get-started-btn:hover {
+  background-color: #0047b3;
+}
+
+.more-testimonials-btn svg,
+.get-started-btn svg {
+  width: 18px;
+  height: 18px;
+}

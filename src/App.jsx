@@ -15,6 +15,10 @@ function App() {
       <Header />
       <div className="app-container">
         <WorkProcess />
+      </div>
+      <AboutUs />
+      <div className="app-container">
+        <Testimonials />
         <h2>Job Application Service Plans</h2>
         <div className="pricing-cards-container">
           <PricingCard />
@@ -22,11 +26,9 @@ function App() {
           <PricingCard />
         </div>
         <AdvancePricingCard />
-        <Testimonials />
         <ResumeBuilding />
         <ContactCTA />
       </div>
-      <AboutUs />
       <Footer />
     </div>
   );

@@ -62,6 +62,7 @@
 .get-started-btn {
   background-color: #0052cc;
   color: white;
+  width: 210px !important;
 }
 
 .get-started-btn:hover {

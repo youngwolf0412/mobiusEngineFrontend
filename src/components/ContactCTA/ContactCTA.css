@@ -4,12 +4,16 @@
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
+  border-radius: 35px;
+  margin-top: 80px;
 }
 
 .contact-container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
+
+  padding: 60px;
   justify-content: space-between;
   align-items: center;
 }

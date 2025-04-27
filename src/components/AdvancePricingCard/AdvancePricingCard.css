@@ -15,6 +15,9 @@
 
 .advance-card-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .advance-card-header {

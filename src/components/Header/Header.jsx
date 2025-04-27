@@ -77,6 +77,17 @@ const Header = () => {
         <div className="hero-image">
           <div className="image-placeholder">
             <img src="./hero-section-image.png" alt="hero section image" />
+            <div className="ebook-download-container">
+              <div className="book-circle">
+                <div className="book-icon">📖</div>
+                <div className="arrow-circle">
+                  <div className="arrow-down">↙</div>
+                </div>
+              </div>
+            </div>
+            <div className="download-ebook-text">
+              <span>Download Ebook</span>
+            </div>
           </div>
         </div>
       </div>

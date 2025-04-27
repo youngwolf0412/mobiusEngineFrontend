@@ -3,6 +3,7 @@
     linear-gradient(to bottom, #ffffff, #44b4fe);
   background-blend-mode: multiply;
   padding: 1rem 2rem;
+
   width: 100%;
 }
 
@@ -10,8 +11,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1500px;
-  margin: 0 auto;
+  max-width: 1300px;
+  margin: 40px auto;
   margin-bottom: 6rem; /* Adding gap between header and hero section */
 }
 
@@ -216,5 +217,101 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+  }
+}
+
+.image-placeholder {
+  position: relative;
+}
+
+.image-placeholder img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* E-book download styling */
+.ebook-download-container {
+  position: absolute;
+  bottom: 40px;
+  right: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.download-ebook-text {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 25px 0 30px 80px;
+}
+
+.arrow-down {
+  position: absolute;
+  left: 5px;
+  bottom: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #2469ef;
+  z-index: 6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-circle {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.2); /* Transparent white background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  z-index: 5;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for definition */
+}
+
+.book-icon {
+  font-size: 55px;
+}
+
+.download-book {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  max-width: 140px;
+  color: white;
+}
+
+/* Responsive styles for the e-book download */
+@media (max-width: 992px) {
+  .ebook-download-container {
+    bottom: -40px;
+    right: -10px;
+  }
+
+  .book-circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .book-icon {
+    width: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ebook-download-container {
+    bottom: -30px;
+    right: 10px;
   }
 }

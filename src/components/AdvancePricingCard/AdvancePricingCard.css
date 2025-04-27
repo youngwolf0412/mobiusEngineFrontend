@@ -21,17 +21,18 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 25px;
+  margin-bottom: 65px;
   position: relative;
 }
 
 .advance-card-header::after {
   content: "";
   position: absolute;
-  bottom: -12px;
+  bottom: -32px;
   left: 0;
-  width: 100%;
-  height: 1px;
+  width: 35%;
+  height: 2px;
+
   background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -99,6 +100,19 @@
 .get-started-container {
   flex-shrink: 0;
   margin-left: 20px;
+}
+
+.get-started-container.seperate-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  gap: 20px;
+}
+
+.separate-card {
+  height: 100%;
 }
 
 .get-started-button {

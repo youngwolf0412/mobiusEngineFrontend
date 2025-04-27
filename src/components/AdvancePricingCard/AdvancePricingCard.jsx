@@ -50,7 +50,7 @@ const AdvancePricingCard = () => {
         </div>
       </div>
 
-      <div className="get-started-container">
+      <div className="get-started-container seperate-card">
         <div className="advance-price">
           <span className="price-amount">$150</span>
           <span className="price-period">/week</span>

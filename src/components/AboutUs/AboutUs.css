@@ -1,0 +1,133 @@
+.about-us-section {
+  padding: 4rem 2rem;
+  width: 100%;
+  color: white;
+  background: linear-gradient(to bottom, #00051f, #053fc9);
+}
+
+.about-us-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-us-title {
+  color: white !important;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  letter-spacing: -4%;
+  line-height: 104%;
+  text-align: start;
+}
+
+.team-members-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 180px;
+  gap: 4rem;
+}
+
+.team-member {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  gap: 5rem;
+}
+
+.team-member-image-container {
+  position: relative;
+  flex-shrink: 0;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: visible; /* Changed from overflow: hidden to make sure icon isn't cut off */
+}
+
+.team-member-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* Added border-radius here to maintain circular image */
+}
+
+.linkedin-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 2;
+  transform: translate(
+    5px,
+    5px
+  ); /* Adjust position to move icon slightly out of the corner */
+}
+
+.linkedin-icon svg {
+  width: 24px;
+  height: 24px;
+  color: #0077b5;
+}
+
+.team-member-info {
+  flex: 1;
+}
+
+.team-member-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.team-member-bio {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: -2%;
+}
+
+.team-member-bio-paragraph {
+  margin-bottom: 1rem;
+}
+
+.about-us-links {
+  margin-left: 320px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 0.75rem;
+}
+
+.board-link,
+.linkedin-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.board-link:hover,
+.linkedin-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .team-member {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .team-member-image-container {
+    margin-bottom: 1.5rem;
+  }
+}

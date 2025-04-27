@@ -7,6 +7,7 @@ import AdvancePricingCard from "./components/AdvancePricingCard/AdvancePricingCa
 import ResumeBuilding from "./components/ResumeBuilding/ResumeBuilding";
 import ContactCTA from "./components/ContactCTA/ContactCTA";
 import Footer from "./components/Footer/Footer";
+import AboutUs from "./components/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <ResumeBuilding />
         <ContactCTA />
       </div>
+      <AboutUs />
       <Footer />
     </div>
   );

@@ -1,12 +1,76 @@
-# React + Vite
+# MobiusEngine Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![MobiusEngine Logo](./public/logo.png)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+MobiusEngine Frontend is a modern React web application built with Vite. This project appears to be a professional services website featuring sections for About Us, Pricing, Resume Building, Testimonials, and more.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design
+- Multiple pricing options (Basic and Advanced)
+- Resume building services
+- Testimonials section
+- About Us information
+- Contact CTA (Call To Action)
+- Professional Work Process section
+
+## Technologies Used
+
+- React 19
+- Vite 6
+- CSS (Component-based styling)
+
+## Project Structure
+
+The project follows a component-based architecture with the following main sections:
+
+- Header/Navigation
+- About Us
+- Resume Building
+- Why Choose Us
+- Work Process
+- Pricing Options
+- Testimonials
+- Contact CTA
+- Footer
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (latest LTS version recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
+   ```
+   git clone https://github.com/youngwolf0412/mobiusEngineFrontend.git
+   cd mobiusEngineFrontend
+   ```
+
+2. Install dependencies
+
+   ```
+   npm install
+   ```
+
+3. Start the development server
+
+   ```
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## Available Scripts
+
+- `npm run dev` - Starts the development server
+
+## Contact
+
+kumar.brijesh0412@gmail.com
+7007067341
